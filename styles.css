@@ -53,9 +53,9 @@ h3{
     margin-right: auto;
 }
 /**reset ul and ol width on mobile**/
-@media screen and {max-width: 480px}{
+@media screen and (max-width: 480px){
     .steps,.ingredients{
-        width: 100%!important;
+        width: 100%;
     }
 }
 
@@ -66,8 +66,8 @@ h3{
     margin-right: auto;
 }
 /**make recipe-image larger on mobile**/
-@media screen and {max-width: 480px}{
+@media screen and (max-width: 480px){
     .recipe-image{
-        width: 100%!important;
+        width: 100%;
     }
 }
