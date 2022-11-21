@@ -53,3 +53,9 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+/**make recipe-image larger on mobile**/
+@media screen and {max-width: 480px}{
+    .recipe-image{
+        width: 100%;
+    }
+}
