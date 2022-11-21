@@ -48,5 +48,8 @@ h3{
 }
 
 .recipe-image{
-    text-align: center;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
