@@ -42,6 +42,7 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 }
 
 .steps{
@@ -51,11 +52,13 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 }
 /**reset ul and ol width on mobile**/
 @media screen and (max-width: 480px){
     .steps,.ingredients{
-        width: 100%;
+        width: 90%;
+        margin: 0;
     }
 }
 
